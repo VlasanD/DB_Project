@@ -2,7 +2,7 @@ package app.view;
 
 import javax.swing.*;
 
-public class HumanResources {
+public class HumanResourcesView {
     private JPanel HRPanel;
     private JTextField ziExceptionalaTextField;
     private JComboBox comboBox1;
@@ -13,6 +13,21 @@ public class HumanResources {
     private JButton logOutButton;
     private JButton datePersonaleButton;
     private JButton salariuButton;
+    private JButton concediiButton;
+    private JTextField oraInceputTextField;
+    private JTextField oraSfarsitTextField;
+
+    public JTextField getOraInceputTextField() {
+        return oraInceputTextField;
+    }
+
+    public JTextField getOraSfarsitTextField() {
+        return oraSfarsitTextField;
+    }
+
+    public JButton getConcediiButton() {
+        return concediiButton;
+    }
 
     public JPanel getHRPanel() {
         return HRPanel;
